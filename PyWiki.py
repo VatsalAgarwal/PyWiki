@@ -19,11 +19,11 @@ print(url)
 
 info = requests.get(url)
 soup = bs(info.content, 'html.parser') 
-#print(soup.prettify)
 
 first = ''.join(text.strip() for text in soup.p.find_all(text=True, recursive=False))
 
 print(first)
 
+#To write the info to a file of the same name:
 with open(search, "w") as file:
 	file.write(first)
