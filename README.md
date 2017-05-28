@@ -1,4 +1,5 @@
-This repository is composed primarily of Python code I wrote over intermittent stretches of time. Might include small projects and throwaway scripts. You are invited to peruse, and hopefully, improve, at your leisure.
+PyWiki v1.0
 
-Happy Hacking!
+Grabs the first paragraph from the Wikipedia entry of your search term. 
 
+I welcome any and all expansions and changes.
